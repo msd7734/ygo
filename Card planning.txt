@@ -4,7 +4,7 @@ Reptilianne Lair O
 Field Spell
 Once per turn, when your opponent Special Summons a monster (except during the Damage Step): You can reveal 1 "Reptilianne" card in your hand, and if you do, the Summoned monster's attack becomes 0. If a monster(s) on the field with 0 ATK is sent to the Graveyard, or is used as Xyz Material for an Xyz Summon, you can add 1 "Reptilianne" card from your Deck to your hand.
 
-Reptilianne Cobriss [next]
+Reptilianne Cobriss O
 Monster/Effect/Tuner
 Reptile/Dark
 *3 400/1200
@@ -18,13 +18,13 @@ Reptilianne Bantu
 Monster/Effect
 Reptile/Dark
 *4 600/2100
-This card cannot be Normal Summoned or Set. This card can only be Special Summoned by reducing the ATK of 1 face-up monster your opponent controls by 600 while all monsters in your Graveyard are Reptile-type. Once per turn, negate the effect of an opponent's card that targets exactly 1 "Reptilianne" monster on the field and destroy it.
+This card cannot be Normal Summoned or Set. This card can only be Special Summoned by reducing the ATK of 1 face-up monster your opponent controls by 600 while all monsters in your Graveyard are Reptile-type. Once per turn: negate the effect of an opponent's card that targets exactly 1 "Reptilianne" monster on the field and destroy it.
 
 Reptilianne Gorgantuous
 Monster/Effect
 Reptile/Dark
 *9 3500/0
-This card can only be Normal Summoned or Set by tributing 1 "Reptilianne" monster you control. This card can only be Special Summoned by tributing 3 face-up monsters with 0 ATK from anywhere on the field. Once per turn: You can Special Summon 1 "Reptilianne" monster from your Graveyard; it cannot attack. During either player's turn: you can banish 1 "Reptilianne" monster you control, and if you do, target 1 monster your opponent controls: its effects are negated and it cannot change its battle position, except with a card effect.
+This card can only be Normal Summoned or Set by tributing 1 "Reptilianne" monster you control. This card can only be Special Summoned by tributing 3 face-up monsters with 0 ATK from anywhere on the field. Once per turn: You can Special Summon 1 "Reptilianne" monster from your Graveyard; it cannot attack. Once per turn, during either player's turn: you can banish 1 "Reptilianne" monster you control, and if you do, target 1 monster your opponent controls; its effects are negated and it cannot change its battle position.
 
 Reptilianne Great Ganssa
 Monster/Sychro/Effect
