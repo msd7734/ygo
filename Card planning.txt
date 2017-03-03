@@ -10,7 +10,7 @@ Reptile/Dark
 *3 400/1200
 During either player's turn, when all face-up monsters your opponent controls have 0 ATK, you can Special Summon this card from your Hand or Graveyard. You can only use this effect of "Reptilianne Cobriss" once per turn.
 
-Reptilianne Ward
+Reptilianne Ward [next]
 Trap
 When your opponent activates a monster effect: Banish 1 "Reptilianne" monster from your Graveyard, and if you do, negate the activation and destroy that monster. If this Set card is destroyed by the opponent's card effect and sent to the Graveyard, target 1 face-up monster your opponent controls; its ATK becomes 0.
 
