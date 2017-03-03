@@ -33,7 +33,7 @@ function c91580105.cost(e,tp,eg,ep,ev,re,r,rp,chk)
 	if chk==0 then
 		return Duel.IsExistingMatchingCard(c91580105.filter,tp,LOCATION_GRAVE,0,1,nil)
 	end
-	local g=Duel.SelectMatchingCard(tp,c91580104.rfilter,tp,LOCATION_GRAVE,0,1,1,nil)
+	local g=Duel.SelectMatchingCard(tp,c91580105.filter,tp,LOCATION_GRAVE,0,1,1,nil)
 	Duel.Remove(g,POS_FACEUP,REASON_COST)
 end
 function c91580105.target(e,tp,eg,ep,ev,re,r,rp,chk)
