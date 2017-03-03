@@ -4,13 +4,13 @@ Reptilianne Lair O
 Field Spell
 Once per turn, when your opponent Special Summons a monster (except during the Damage Step): You can reveal 1 "Reptilianne" card in your hand, and if you do, the Summoned monster's attack becomes 0. If a monster(s) on the field with 0 ATK is sent to the Graveyard, or is used as Xyz Material for an Xyz Summon, you can add 1 "Reptilianne" card from your Deck to your hand.
 
-Reptilianne Cobriss
+Reptilianne Cobriss [next]
 Monster/Effect/Tuner
 Reptile/Dark
 *3 400/1200
 During either player's turn, when all face-up monsters your opponent controls have 0 ATK, you can Special Summon this card from your Hand or Graveyard. You can only use this effect of "Reptilianne Cobriss" once per turn.
 
-Reptilianne Ward [next]
+Reptilianne Ward O
 Trap
 When your opponent activates a monster effect: Banish 1 "Reptilianne" monster from your Graveyard, and if you do, negate the activation and destroy that monster. If this Set card is destroyed by the opponent's card effect and sent to the Graveyard, target 1 face-up monster your opponent controls; its ATK becomes 0.
 
