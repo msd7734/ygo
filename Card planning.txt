@@ -14,11 +14,13 @@ Reptilianne Ward O
 Trap
 When your opponent activates a monster effect: Banish 1 "Reptilianne" monster from your Graveyard, and if you do, negate the activation and destroy that monster. If this Set card is destroyed by the opponent's card effect and sent to the Graveyard, target 1 face-up monster your opponent controls; its ATK becomes 0.
 
-Reptilianne Bantu
+Reptilianne Bantu O
 Monster/Effect
 Reptile/Dark
-*4 600/2100
-This card cannot be Normal Summoned or Set. This card can only be Special Summoned by reducing the ATK of 1 face-up monster your opponent controls by 600 while all monsters in your Graveyard are Reptile-type. Once per turn: negate the effect of an opponent's card that targets exactly 1 "Reptilianne" monster on the field and destroy it.
+*4 600/1500
+Cannot be Normal Summoned or Set. Must first be Special Summoned (from your hand) by reducing the ATK of 1 face-up monster your opponent controls by 600 while all monsters in your Graveyard are Reptile-type. If this card is sent to the Graveyard: banish it instead. If this card is banished: target 1 face-up monster your opponent controls; it loses 1500 ATK.
+
+--Once per turn: negate the effect of an opponent's card that targets exactly 1 "Reptilianne" monster on the field and destroy it.
 
 Reptilianne Gorgantuous
 Monster/Effect
