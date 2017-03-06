@@ -33,14 +33,15 @@ function c91580107.spfilter(c,tp)
 end
 
 function c91580107.gfilter(c)
-	return c:IsType(TYPE_MONSTER) and not c:IsRace(RACE_REPTILE)
+	return c:IsType(TYPE_MONSTER) and c:IsFaceup() and c:IsSetCard(0x3C) and not c:IsCode(91580107)
+	--return c:IsType(TYPE_MONSTER) and not c:IsRace(RACE_REPTILE)
 end
 
 function c91580107.spcon(e,c)
 	if c==nil then return true end
 	local tp=c:GetControler()
 	return Duel.IsExistingMatchingCard(c91580107.spfilter,tp,0,LOCATION_MZONE,1,nil,tp)
-		and not Duel.IsExistingMatchingCard(c91580107.gfilter,tp,LOCATION_GRAVE,0,1,nil)
+		and Duel.IsExistingMatchingCard(c91580107.gfilter,tp,LOCATION_MZONE,0,1,nil)
 		and Duel.GetLocationCount(tp,LOCATION_MZONE)>0
 end
 
