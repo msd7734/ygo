@@ -14,11 +14,13 @@ function c91580106.initial_effect(c)
 end
 
 function c91580106.nonzerofilter(c,tp)
-	return c:GetControler()~=tp and c:IsType(TYPE_MONSTER) and c:GetAttack()>0 and c:IsFaceup()
+	return c:GetControler()~=tp and c:IsType(TYPE_MONSTER) and c:GetAttack()>0
 end
 
 function c91580106.condition(e,tp,eg,ep,ev,re,r,rp)
-	return Duel.GetMatchingGroupCount(c91580106.nonzerofilter,tp,0,LOCATION_MZONE,nil,tp)==0
+	local g=Duel.GetMatchingGroup(Card.IsFaceup,tp,0,LOCATION_MZONE,nil)
+	if g:GetCount()==0 then return false end
+	return g:FilterCount(c91580106.nonzerofilter,nil)==0
 end
 
 function c91580106.target(e,tp,eg,ep,ev,re,r,rp,chk)
