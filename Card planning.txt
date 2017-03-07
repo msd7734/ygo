@@ -1,5 +1,11 @@
 IDs can start at 91580103 and go up to 91584698 (91580102 is Reptilianne Rage)
 
+We want more effects to put opponents at 0 ATK...
+
+Reptilianne Ritual
+Trap
+Discard 1 "Reptilianne" monster, and if you do, target 1 face-up monster your opponent controls; its ATK becomes 0. If this Set card is destroyed by the opponent's card effect and sent to the Graveyard, target 1 of your banished "Reptilianne" monsters; add that target to your hand.
+
 Reptilianne Lair O
 Field Spell
 Once per turn, when your opponent Special Summons a monster (except during the Damage Step): You can reveal 1 "Reptilianne" card in your hand, and if you do, the Summoned monster's attack becomes 0. If a monster(s) on the field with 0 ATK is sent to the Graveyard, or is used as Xyz Material for an Xyz Summon, you can add 1 "Reptilianne" card from your Deck to your hand.

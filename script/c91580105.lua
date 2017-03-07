@@ -12,7 +12,7 @@ function c91580105.initial_effect(c)
 	c:RegisterEffect(e1)
 	-- Reduce ATK on destroy
 	local e2=Effect.CreateEffect(c)
-	e2:SetCategory(CATEGORY_DRAW)
+	e2:SetCategory(CATEGORY_ATKCHANGE)
 	e2:SetProperty(EFFECT_FLAG_CARD_TARGET)
 	e2:SetType(EFFECT_TYPE_SINGLE+EFFECT_TYPE_TRIGGER_F)
 	e2:SetCode(EVENT_TO_GRAVE)
