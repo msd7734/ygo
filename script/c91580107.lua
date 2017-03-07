@@ -13,10 +13,21 @@ function c91580107.initial_effect(c)
 	--banish instead of sending to grave
 	local e2=Effect.CreateEffect(c)
 	e2:SetType(EFFECT_TYPE_SINGLE)
+	e2:SetRange(LOCATION_OVERLAY)
 	e2:SetCode(EFFECT_TO_GRAVE_REDIRECT)
 	e2:SetProperty(EFFECT_FLAG_CANNOT_DISABLE)
 	e2:SetValue(LOCATION_REMOVED)
 	c:RegisterEffect(e2)
+	if not c91580107.global_check then
+		c91580107.global_check=true
+		local ge1=Effect.GlobalEffect()
+		ge1:SetType(EFFECT_TYPE_FIELD)
+		ge1:SetCode(EFFECT_TO_GRAVE_REDIRECT)
+		ge1:SetTargetRange(LOCATION_OVERLAY,LOCATION_OVERLAY)
+		ge1:SetTarget(aux.TargetBoolFunction(Card.IsCode,91580107))
+		ge1:SetValue(LOCATION_REMOVED)
+		Duel.RegisterEffect(ge1,0)
+	end
 	--reduce atk on banish
 	local e3=Effect.CreateEffect(c)
 	e3:SetType(EFFECT_TYPE_SINGLE+EFFECT_TYPE_TRIGGER_F)
