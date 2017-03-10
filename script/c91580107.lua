@@ -1,14 +1,14 @@
 -- Reptilianne Bantu
 function c91580107.initial_effect(c)
-	c:EnableReviveLimit()
+	--c:EnableReviveLimit()
 	--spsummon from hand
 	local e1=Effect.CreateEffect(c)
-	e1:SetProperty(EFFECT_FLAG_UNCOPYABLE)
-	e1:SetType(EFFECT_TYPE_FIELD)
 	e1:SetRange(LOCATION_HAND)
-	e1:SetCode(EFFECT_SPSUMMON_PROC)
 	e1:SetCondition(c91580107.spcon)
 	e1:SetOperation(c91580107.spop)
+	e1:SetProperty(EFFECT_FLAG_UNCOPYABLE)
+	e1:SetType(EFFECT_TYPE_FIELD)
+	e1:SetCode(EFFECT_SPSUMMON_PROC)
 	c:RegisterEffect(e1)
 	--banish instead of sending to grave
 	local e2=Effect.CreateEffect(c)
@@ -46,6 +46,14 @@ end
 function c91580107.gfilter(c)
 	return c:IsType(TYPE_MONSTER) and c:IsFaceup() and c:IsSetCard(0x3C) and not c:IsCode(91580107)
 	--return c:IsType(TYPE_MONSTER) and not c:IsRace(RACE_REPTILE)
+end
+
+function c91580107.sptg(e,tp,eg,ep,ev,re,r,rp,chk)
+	if chk==0 then return Duel.GetLocationCount(tp,LOCATION_MZONE)>0
+		and Duel.IsExistingMatchingCard(c91580107.spfilter,tp,0,LOCATION_MZONE,1,nil,tp)
+		and Duel.IsExistingMatchingCard(c91580107.gfilter,tp,LOCATION_MZONE,0,1,nil)
+		and e:GetHandler():IsCanBeSpecialSummoned(e,0,tp,false,false) end
+	Duel.SetOperationInfo(0,CATEGORY_SPECIAL_SUMMON,e:GetHandler(),1,0,0)
 end
 
 function c91580107.spcon(e,c)
