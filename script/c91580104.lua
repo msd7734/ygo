@@ -7,6 +7,7 @@ function c91580104.initial_effect(c)
 	c:RegisterEffect(e1)
 	-- Reduce ATK
 	local e2=Effect.CreateEffect(c)
+	e2:SetDescription(aux.Stringid(91580104,0))
 	e2:SetCategory(CATEGORY_ATKCHANGE)
 	e2:SetType(EFFECT_TYPE_FIELD+EFFECT_TYPE_TRIGGER_O)
 	e2:SetCode(EVENT_SPSUMMON_SUCCESS)
@@ -19,6 +20,7 @@ function c91580104.initial_effect(c)
 	c:RegisterEffect(e2)
 	-- Search, Reptilianne to hand
 	local e3=Effect.CreateEffect(c)
+	e3:SetDescription(aux.Stringid(91580104,1))
 	e3:SetCategory(CATEGORY_TOHAND+CATEGORY_SEARCH)
 	e3:SetType(EFFECT_TYPE_FIELD+EFFECT_TYPE_TRIGGER_O)
 	-- this flag is the secret sauce that prevents it from missing the timing
@@ -32,6 +34,7 @@ function c91580104.initial_effect(c)
 	c:RegisterEffect(e3)
 	-- Search on Xyz summon
 	local e4=Effect.CreateEffect(c)
+	e4:SetDescription(aux.Stringid(91580104,1))
 	e4:SetCategory(CATEGORY_TOHAND+CATEGORY_SEARCH)
 	e4:SetType(EFFECT_TYPE_FIELD+EFFECT_TYPE_TRIGGER_O)
 	e4:SetProperty(EFFECT_FLAG_DELAY+EFFECT_FLAG_DAMAGE_STEP)
